@@ -100,13 +100,4 @@ gradle-app.setting
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
 
-.gradle/
-.idea/
-SOF305.sql
-build.gradle
-build/
-gradle/
-gradlew
-gradlew.bat
-settings.gradle
-src/
+
