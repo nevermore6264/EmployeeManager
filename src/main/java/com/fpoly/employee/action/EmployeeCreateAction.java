@@ -17,10 +17,10 @@ import org.apache.struts2.interceptor.SessionAware;
 import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.ActionSupport;
 
-import vn.poly.sof305.group1.employee.dto.DepartmentDto;
-import vn.poly.sof305.group1.employee.dto.EmployeeDto;
-import vn.poly.sof305.group1.employee.form.EmployeeCreateForm;
-import vn.poly.sof305.group1.employee.service.EmployeeService;
+import com.fpoly.employee.dto.DepartmentDto;
+import com.fpoly.employee.dto.EmployeeDto;
+import com.fpoly.employee.form.EmployeeCreateForm;
+import com.fpoly.employee.service.EmployeeService;
 
 @ResultPath("/views/employee/")
 @InterceptorRef(value = "loginStack")

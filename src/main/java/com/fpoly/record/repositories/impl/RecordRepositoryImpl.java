@@ -9,9 +9,9 @@ import org.hibernate.Query;
 import org.hibernate.Session;
 import org.springframework.stereotype.Repository;
 
-import vn.poly.sof305.group1.common.bases.BaseRepository;
-import vn.poly.sof305.group1.common.entities.Record;
-import vn.poly.sof305.group1.record.repositories.RecordRepository;
+import com.fpoly.common.bases.BaseRepository;
+import com.fpoly.common.entities.Record;
+import com.fpoly.record.repositories.RecordRepository;
 @Repository
 public class RecordRepositoryImpl extends BaseRepository implements RecordRepository {
 

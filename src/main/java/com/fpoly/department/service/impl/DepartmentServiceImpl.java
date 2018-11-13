@@ -6,12 +6,12 @@ import java.util.List;
 import com.fpoly.department.repositories.DepartmentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import vn.poly.sof305.group1.common.bases.BaseService;
-import vn.poly.sof305.group1.common.entities.Department;
-import vn.poly.sof305.group1.common.utils.DataTransformUtil;
-import vn.poly.sof305.group1.department.dto.DepartmentDto;
-import vn.poly.sof305.group1.department.repositories.DepartmentRepository;
-import vn.poly.sof305.group1.department.service.DepartmentService;
+import com.fpoly.common.bases.BaseService;
+import com.fpoly.common.entities.Department;
+import com.fpoly.common.utils.DataTransformUtil;
+import com.fpoly.department.dto.DepartmentDto;
+import com.fpoly.department.repositories.DepartmentRepository;
+import com.fpoly.department.service.DepartmentService;
 
 @Service
 public class DepartmentServiceImpl extends BaseService implements DepartmentService{

@@ -7,9 +7,9 @@ import org.apache.struts2.convention.annotation.ResultPath;
 
 import com.opensymphony.xwork2.ActionSupport;
 
-import vn.poly.sof305.group1.department.dto.DepartmentDto;
-import vn.poly.sof305.group1.department.form.DepartmentUpdateForm;
-import vn.poly.sof305.group1.department.service.DepartmentService;
+import com.fpoly.department.dto.DepartmentDto;
+import com.fpoly.department.form.DepartmentUpdateForm;
+import com.fpoly.department.service.DepartmentService;
 @ResultPath("/views/department")
 @InterceptorRef(value = "loginStack")
 public class DepartmentUpdateAction extends ActionSupport {

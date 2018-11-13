@@ -5,9 +5,9 @@ import java.util.List;
 import com.fpoly.common.dto.ListDataDto;
 import com.fpoly.employee.dto.DepartmentDto;
 import com.fpoly.employee.dto.EmployeeDto;
-import vn.poly.sof305.group1.common.dto.ListDataDto;
-import vn.poly.sof305.group1.employee.dto.DepartmentDto;
-import vn.poly.sof305.group1.employee.dto.EmployeeDto;
+import com.fpoly.common.dto.ListDataDto;
+import com.fpoly.employee.dto.DepartmentDto;
+import com.fpoly.employee.dto.EmployeeDto;
 
 public interface EmployeeService {
 		

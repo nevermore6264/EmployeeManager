@@ -21,8 +21,6 @@ public class DepartmentDto {
 		this.id = id;
 	}
 
-	
-
 	public String getCode() {
 		return code;
 	}

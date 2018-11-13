@@ -19,17 +19,17 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
-import vn.poly.sof305.group1.common.bases.BaseService;
-import vn.poly.sof305.group1.common.dto.ListDataDto;
-import vn.poly.sof305.group1.common.dto.ListPagingDto;
-import vn.poly.sof305.group1.common.entities.Department;
-import vn.poly.sof305.group1.common.entities.Employee;
-import vn.poly.sof305.group1.common.utils.DataTransformUtil;
-import vn.poly.sof305.group1.employee.dto.DepartmentDto;
-import vn.poly.sof305.group1.employee.dto.EmployeeDto;
-import vn.poly.sof305.group1.employee.repositories.DepartmentRepository;
-import vn.poly.sof305.group1.employee.repositories.EmployeeRepository;
-import vn.poly.sof305.group1.employee.service.EmployeeService;
+import com.fpoly.common.bases.BaseService;
+import com.fpoly.common.dto.ListDataDto;
+import com.fpoly.common.dto.ListPagingDto;
+import com.fpoly.common.entities.Department;
+import com.fpoly.common.entities.Employee;
+import com.fpoly.common.utils.DataTransformUtil;
+import com.fpoly.employee.dto.DepartmentDto;
+import com.fpoly.employee.dto.EmployeeDto;
+import com.fpoly.employee.repositories.DepartmentRepository;
+import com.fpoly.employee.repositories.EmployeeRepository;
+import com.fpoly.employee.service.EmployeeService;
 
 
 

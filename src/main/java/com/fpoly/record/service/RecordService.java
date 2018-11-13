@@ -3,9 +3,9 @@ package com.fpoly.record.service;
 import java.util.List;
 
 import com.fpoly.common.dto.ListDataDto;
-import vn.poly.sof305.group1.common.dto.ListDataDto;
-import vn.poly.sof305.group1.record.dto.ReEmployeeDto;
-import vn.poly.sof305.group1.record.dto.RecordDto;
+import com.fpoly.common.dto.ListDataDto;
+import com.fpoly.record.dto.ReEmployeeDto;
+import com.fpoly.record.dto.RecordDto;
 
 public interface RecordService {
 	List<ReEmployeeDto> employees(String name);

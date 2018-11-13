@@ -12,7 +12,7 @@ import org.apache.struts2.interceptor.SessionAware;
 import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.ActionSupport;
 
-import vn.poly.sof305.group1.employee.service.EmployeeService;
+import com.fpoly.employee.service.EmployeeService;
 
 @ResultPath("/views/employee/")
 @InterceptorRef(value = "loginStack")

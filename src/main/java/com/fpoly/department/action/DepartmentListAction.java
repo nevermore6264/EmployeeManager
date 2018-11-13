@@ -11,9 +11,6 @@ import org.apache.struts2.convention.annotation.ResultPath;
 
 import com.opensymphony.xwork2.ActionSupport;
 
-import com.fpoly.department.dto.DepartmentDto;
-import com.fpoly.department.service.DepartmentService;
-
 @ResultPath("/views/department")
 @InterceptorRef(value = "loginStack")
 public class DepartmentListAction extends ActionSupport {

@@ -15,19 +15,19 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
-import vn.poly.sof305.group1.account.dto.AccountDto;
-import vn.poly.sof305.group1.common.bases.BaseService;
-import vn.poly.sof305.group1.common.dto.ListDataDto;
-import vn.poly.sof305.group1.common.dto.ListPagingDto;
-import vn.poly.sof305.group1.common.entities.Account;
-import vn.poly.sof305.group1.common.entities.Employee;
-import vn.poly.sof305.group1.common.entities.Record;
-import vn.poly.sof305.group1.common.utils.DataTransformUtil;
-import vn.poly.sof305.group1.record.dto.ReEmployeeDto;
-import vn.poly.sof305.group1.record.dto.RecordDto;
-import vn.poly.sof305.group1.record.repositories.EmployeeRepository;
-import vn.poly.sof305.group1.record.repositories.RecordRepository;
-import vn.poly.sof305.group1.record.service.RecordService;
+import com.fpoly.account.dto.AccountDto;
+import com.fpoly.common.bases.BaseService;
+import com.fpoly.common.dto.ListDataDto;
+import com.fpoly.common.dto.ListPagingDto;
+import com.fpoly.common.entities.Account;
+import com.fpoly.common.entities.Employee;
+import com.fpoly.common.entities.Record;
+import com.fpoly.common.utils.DataTransformUtil;
+import com.fpoly.record.dto.ReEmployeeDto;
+import com.fpoly.record.dto.RecordDto;
+import com.fpoly.record.repositories.EmployeeRepository;
+import com.fpoly.record.repositories.RecordRepository;
+import com.fpoly.record.service.RecordService;
 
 @Service
 public class RecordServiceImpl extends BaseService implements RecordService {

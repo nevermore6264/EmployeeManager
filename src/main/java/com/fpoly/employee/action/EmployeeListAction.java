@@ -16,13 +16,13 @@ import org.apache.struts2.convention.annotation.ResultPath;
 
 import com.opensymphony.xwork2.ActionSupport;
 
-import vn.poly.sof305.group1.common.dto.ListDataDto;
-import vn.poly.sof305.group1.common.dto.ListPagingDto;
-import vn.poly.sof305.group1.common.utils.DataTransformUtil;
-import vn.poly.sof305.group1.employee.dto.DepartmentDto;
-import vn.poly.sof305.group1.employee.dto.EmployeeDto;
-import vn.poly.sof305.group1.employee.form.EmployeeListForm;
-import vn.poly.sof305.group1.employee.service.EmployeeService;
+import com.fpoly.common.dto.ListDataDto;
+import com.fpoly.common.dto.ListPagingDto;
+import com.fpoly.common.utils.DataTransformUtil;
+import com.fpoly.employee.dto.DepartmentDto;
+import com.fpoly.employee.dto.EmployeeDto;
+import com.fpoly.employee.form.EmployeeListForm;
+import com.fpoly.employee.service.EmployeeService;
 
 @ResultPath("/views/employee/")
 @InterceptorRef(value = "loginStack")

@@ -4,8 +4,8 @@ package com.fpoly.department.repositories;
 
 import java.util.List;
 
-import vn.poly.sof305.group1.common.bases.BaseRepositoryInterface;
-import vn.poly.sof305.group1.common.entities.Department;
+import com.fpoly.common.bases.BaseRepositoryInterface;
+import com.fpoly.common.entities.Department;
 
 
 public interface DepartmentRepository extends BaseRepositoryInterface{

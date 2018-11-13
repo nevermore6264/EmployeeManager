@@ -14,10 +14,10 @@ import org.apache.struts2.interceptor.SessionAware;
 import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.ActionSupport;
 
-import vn.poly.sof305.group1.record.dto.ReEmployeeDto;
-import vn.poly.sof305.group1.record.dto.RecordDto;
-import vn.poly.sof305.group1.record.form.RecordCreateForm;
-import vn.poly.sof305.group1.record.service.RecordService;
+import com.fpoly.record.dto.ReEmployeeDto;
+import com.fpoly.record.dto.RecordDto;
+import com.fpoly.record.form.RecordCreateForm;
+import com.fpoly.record.service.RecordService;
 
 @ResultPath("/views/record/")
 @InterceptorRef(value = "loginStack")

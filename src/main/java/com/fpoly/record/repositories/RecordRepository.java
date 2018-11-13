@@ -3,7 +3,7 @@ package com.fpoly.record.repositories;
 import java.util.List;
 
 import com.fpoly.common.entities.Record;
-import vn.poly.sof305.group1.common.entities.Record;
+import com.fpoly.common.entities.Record;
 
 public interface RecordRepository {
 

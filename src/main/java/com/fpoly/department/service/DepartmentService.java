@@ -2,8 +2,8 @@ package com.fpoly.department.service;
 
 import java.util.List;
 
-import vn.poly.sof305.group1.common.bases.BaseServiceInterface;
-import vn.poly.sof305.group1.department.dto.DepartmentDto;
+import com.fpoly.common.bases.BaseServiceInterface;
+import com.fpoly.department.dto.DepartmentDto;
 
 public interface DepartmentService extends BaseServiceInterface {
 	/*ListDataDto<DepartmentDto> getListDepart(String code, String name, Long pn);*/

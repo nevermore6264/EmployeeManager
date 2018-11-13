@@ -15,9 +15,9 @@ import com.opensymphony.xwork2.ActionInvocation;
 import com.opensymphony.xwork2.ActionSupport;
 import com.opensymphony.xwork2.interceptor.Interceptor;
 
-import vn.poly.sof305.group1.account.dto.AccountDto;
-import vn.poly.sof305.group1.account.service.AccountService;
-import vn.poly.sof305.group1.auth.action.LoginAction;
+import com.fpoly.account.dto.AccountDto;
+import com.fpoly.account.service.AccountService;
+import com.fpoly.auth.action.LoginAction;
 
 public class LoginInterceptor implements Interceptor {
 

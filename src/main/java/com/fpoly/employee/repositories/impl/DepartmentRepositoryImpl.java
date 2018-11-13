@@ -8,9 +8,9 @@ import com.fpoly.employee.repositories.DepartmentRepository;
 import org.hibernate.Query;
 import org.springframework.stereotype.Repository;
 
-import vn.poly.sof305.group1.common.bases.BaseRepository;
-import vn.poly.sof305.group1.common.entities.Department;
-import vn.poly.sof305.group1.employee.repositories.DepartmentRepository;
+import com.fpoly.common.bases.BaseRepository;
+import com.fpoly.common.entities.Department;
+import com.fpoly.employee.repositories.DepartmentRepository;
 
 @Repository("emDepartRepositoryImpl")
 public class DepartmentRepositoryImpl extends BaseRepository implements DepartmentRepository {

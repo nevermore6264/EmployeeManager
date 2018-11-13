@@ -11,7 +11,7 @@ import org.apache.struts2.convention.annotation.ResultPath;
 
 import com.opensymphony.xwork2.ActionSupport;
 
-import vn.poly.sof305.group1.statics.service.StaticService;
+import com.fpoly.statics.service.StaticService;
 @ResultPath("/views/statics/")
 @InterceptorRef(value = "loginStack")
 public class HomeAction extends ActionSupport {

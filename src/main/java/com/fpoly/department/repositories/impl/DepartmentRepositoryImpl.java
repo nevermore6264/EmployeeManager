@@ -7,10 +7,10 @@ import org.hibernate.Query;
 import org.hibernate.Session;
 import org.springframework.stereotype.Repository;
 
-import vn.poly.sof305.group1.common.bases.BaseRepository;
-import vn.poly.sof305.group1.common.entities.Department;
-import vn.poly.sof305.group1.common.entities.Employee;
-import vn.poly.sof305.group1.department.repositories.DepartmentRepository;
+import com.fpoly.common.bases.BaseRepository;
+import com.fpoly.common.entities.Department;
+import com.fpoly.common.entities.Employee;
+import com.fpoly.department.repositories.DepartmentRepository;
 
 @Repository
 public class DepartmentRepositoryImpl extends BaseRepository implements DepartmentRepository {
