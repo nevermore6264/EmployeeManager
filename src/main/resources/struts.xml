@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+    "http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+
+
+	<constant name="struts.custom.i18n.resources"
+		value="properties.message" />
+
+	<constant name="struts.devMode" value="true" />
+
+	<constant name="struts.ui.theme" value="simple" />
+
+	<!-- Change action path extension from .action to .html -->
+	<constant name="struts.action.extension" value=",html" />
+
+	<!-- <constant name="struts.objectFactory" value="spring" /> -->
+	<constant name="struts.objectFactory.spring.autoWire"
+		value="type" />
+	<constant name="struts.convention.action.suffix"
+		value="Controller" />
+	<constant name="struts.convention.action.mapAllMatches"
+		value="true" />
+	<constant name="struts.convention.default.parent.package"
+		value="default" />
+	<package name="default" extends="struts-default">
+		<interceptors>
+			<interceptor
+				class="vn.poly.sof305.group1.interceptor.LoginInterceptor"
+				name="loginInterceptor">
+			</interceptor>
+			<interceptor-stack name="loginStack">
+				<interceptor-ref name="loginInterceptor" />
+				<interceptor-ref name="defaultStack" />
+			</interceptor-stack>
+		</interceptors>
+		<global-results>
+			<result name="success" type="redirect">account</result>
+			<result name="login" type="redirect">loginInput</result>
+		</global-results>
+		<action name="index">
+			<result>/index.jsp</result>
+		</action>
+		
+
+		
+
+		
+
+
+	</package>
+</struts>
